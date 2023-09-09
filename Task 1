@@ -1,0 +1,24 @@
+(1)  The evolution of the internet has brought about significant changes in the way we access and interact with web content. One of the fundamental protocols that powers the World Wide Web is the Hypertext Transfer Protocol (HTTP). Over the years, HTTP has seen several iterations, with HTTP/1.1 and HTTP/2 being two of the most notable versions. In this blog post, we will explore the key differences between HTTP/1.1 and HTTP/2, shedding light on how these changes have improved the web browsing experience.
+                                * Multiplexing
+                                * Header Compression
+                                * Server Push
+                                * Binary Protocol
+                                * Flow Control
+                                * Backward Compatibility
+
+   X-------------------X------------------X-----------------X------------------X-------------------X-----------X---------
+                                
+ (2) In JavaScript, objects are a fundamental data type used to represent and store collections of key-value pairs. These key-value pairs are commonly referred to as properties and can include various data types, such as numbers, strings, functions, or even other objects. JavaScript objects are incredibly versatile, allowing developers to model real-world entities and complex data structures effectively.  
+
+                 * Internal Representation of Objects 
+                        *Property Maps
+                        *Inline Caches
+     (property maps)
+
+                Property maps are data structures that store the object's properties and their associated values. Each object has its own property map, which acts as a dictionary-like structure to map property names to their respective values. When you create an object, the JavaScript engine allocates memory for its property map.
+
+     (Inline maps)
+
+                Inline caches (or ICs) are a mechanism used by JavaScript engines to optimize property access and method calls. They store information about the object's properties and their types to reduce lookup time. When you access a property of an object, the engine checks the inline cache to quickly locate the property's value.
+
+X------------------------X-----------------X----------------X-----------------X-------------X-----------------X-----------              
